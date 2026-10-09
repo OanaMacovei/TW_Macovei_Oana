@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/register_style.css">
+
+    <title>Register</title>
+    </head>
+
+    <body>
+        <main class="page">
+            <section class="card">
+                <h1>Inregistreaza-te</h1>
+                <form class="register-form" action="#" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <label style="color: beige;" for="username">Nume utilizator</label>
+                        <input type="text" name="username" placeholder="ex:ioanaTW" required>
+                    </div>
+
+                    <div class="row">
+                        <label  style="color: beige;" for="email">Email</label>
+                        <input type="text" name="email" placeholder="ex:lala.lulu@gmail.com" required>
+                    </div>
+
+                    <div class="row two-col">
+                        <div>
+                            <label  style="color: beige;" for="password">Parolă</label>
+                            <input text="password" name="enter_password" required>
+                        </div>
+
+                        <div>
+                            <label  style="color: beige;" for="confirm_password">Confirmă parola</label>
+                            <input type="password" name="confirm_password" required>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button type="submit" class="btn primary">Creeaza cont</button>
+                        <button type="reset" class="btn ghost">Reseteaza</button>
+                    </div>
+
+                    <p class="login-link"> Ai deja cont?
+                        <a href="./login.html">Mergi la login</a>
+                    </p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
