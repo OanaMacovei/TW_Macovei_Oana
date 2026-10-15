@@ -1,0 +1,70 @@
+body {
+    margin: 1px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, blue, black);
+    flex-direction: column;
+}
+
+.chat-container {
+    max-width: 600px;
+    width: 90%;
+    height: 70vh;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 2px solid blue;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(52, 152, 219, 0.35);
+    margin-bottom: 20px;
+    overflow-y: auto;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: rgba(52, 152, 219, 0.15);
+    border-left: 4px solid #3498db;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+#chat-form {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#chat-form input[type="text"] {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#chat-form button {
+    padding: 10px 20px;
+    background-color: blue;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#chat-form button:hover {
+    background-color: #3498db;
+}
