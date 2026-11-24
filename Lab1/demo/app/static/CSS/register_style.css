@@ -1,0 +1,112 @@
+html, body {
+    background: rgb(41, 37, 116);
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    max-width: 60%;
+}
+
+h1 {
+    color: white;
+}
+
+.row {
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 5px;
+}
+
+.row label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    border-radius: 0%;
+    border: 3px;
+    background: wheat;
+    color: beige;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 30px;
+}
+
+input:focus, select:focus, textarea:focus {
+    opacity: 0.5%;
+    box-shadow: 0 0 5px, rgb(50, 110, 190);
+}
+
+.two-col {
+    display: flex;
+    gap: 12px;
+}
+
+.two-col > div {
+    flex: 1;
+}
+
+.checkbox-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.btn {
+    max-width: 35%;
+    padding: 7px;
+    font-size: 12px;
+    background-color: wheat;
+    border: none;
+    border-radius: 9px;
+    height: 35px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: wheat;
+    font-weight: bold;
+}
+
+.btn.ghost {
+    background-color: rgb(29, 27, 27);
+    color: beige;
+}
+
+.login-link {
+    background-color: beige;
+    border-radius: 15px;
+    height: 30px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-link a {
+    background-color: wheat;
+    font-weight: bold;
+    color: palevioletred;
+    margin-left: 3px;
+}
